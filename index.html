@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milk Collection Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Milk Collection Center</h1>
+    </header>
+    <main>
+        <section class="collection-centers">
+            <h2>Available Collection Centers</h2>
+            <div id="center-list">
+                <!-- Milk collection centers will be displayed here -->
+            </div>
+        </section>
+
+        <section class="review-form">
+            <h2>Submit a Review</h2>
+            <input type="text" id="center-name" placeholder="Center Name" required>
+            <input type="text" id="review" placeholder="Your Review" required>
+            <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5" required>
+            <button id="submit-review">Submit Review</button>
+        </section>
+
+        <section class="filter">
+            <h2>Filter Collection Centers</h2>
+            <input type="text" id="filter-location" placeholder="Filter by Location">
+            <input type="number" id="filter-rating" placeholder="Min Rating (1-5)" min="1" max="5">
+            <button id="filter-button">Filter</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Milk Collection Center</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
