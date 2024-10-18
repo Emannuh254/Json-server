@@ -82,7 +82,7 @@
                     "rating": 4
                 }
             ],
-            "image": "./Images/image1.jpg"
+            "image": "./Images/image1.jpeg"
         },
         {
             "id": 7,
@@ -96,7 +96,7 @@
                     "rating": 4
                 }
             ],
-            "image": "./Images/image7.jpg"
+            "image": "./Images/image7.jpeg"
         },
         {
             "id": 8,
@@ -110,7 +110,7 @@
                     "rating": 4
                 }
             ],
-            "image": "./Images/image8.jpg"
+            "image": "./Images/image8.jpeg"
         },
         {
             "id": 9,
@@ -124,7 +124,7 @@
                     "rating": 3
                 }
             ],
-            "image": "./Images/image9.jpg"
+            "image": "./Images/image9.jpeg"
         }
     ]
 }
